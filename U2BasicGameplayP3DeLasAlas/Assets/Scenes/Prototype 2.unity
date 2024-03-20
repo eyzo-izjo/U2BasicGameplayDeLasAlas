@@ -299,7 +299,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1164377401157945987, guid: 0edc31ec2a50c0942889dd53b26f4a00, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 13
+      value: 15.29
       objectReference: {fileID: 0}
     - target: {fileID: 1164377401157945987, guid: 0edc31ec2a50c0942889dd53b26f4a00, type: 3}
       propertyPath: m_LocalRotation.w
@@ -432,6 +432,7 @@ GameObject:
   - component: {fileID: 475985834}
   - component: {fileID: 475985837}
   - component: {fileID: 475985836}
+  - component: {fileID: 475985838}
   m_Layer: 0
   m_Name: Ground
   m_TagString: Untagged
@@ -504,6 +505,33 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 475985833}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &475985838
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 475985833}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &534669902
 GameObject:
   m_ObjectHideFlags: 0
@@ -674,9 +702,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   horizontalInput: 0
-  speed: 10
-  xRange: 10
-  projectilePrefab: {fileID: 813267818530786103, guid: 35217fc14f7daea4684d650f1122ca63, type: 3}
+  speed: 20
+  xRange: 20
+  projectilePrefab: {fileID: 8710686532084808994, guid: 45c5c71cae6db884597ad22f13c62108, type: 3}
 --- !u!1 &992285705
 GameObject:
   m_ObjectHideFlags: 0
@@ -733,7 +761,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4900718319795308803, guid: 862590c696b4a9f418d078ae2cc124a3, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 13
+      value: 15.29
       objectReference: {fileID: 0}
     - target: {fileID: 4900718319795308803, guid: 862590c696b4a9f418d078ae2cc124a3, type: 3}
       propertyPath: m_LocalRotation.w
@@ -790,7 +818,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6514443178059692104, guid: 89587b80fa5f8764f8fceff911c7afb1, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 13
+      value: 15.29
       objectReference: {fileID: 0}
     - target: {fileID: 6514443178059692104, guid: 89587b80fa5f8764f8fceff911c7afb1, type: 3}
       propertyPath: m_LocalRotation.w

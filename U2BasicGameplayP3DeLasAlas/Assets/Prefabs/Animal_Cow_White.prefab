@@ -493,6 +493,8 @@ GameObject:
   - component: {fileID: 543183346086891367}
   - component: {fileID: 5003530845125737335}
   - component: {fileID: 8784034891126529728}
+  - component: {fileID: -7970150529015884865}
+  - component: {fileID: 1141682272649102387}
   m_Layer: 0
   m_Name: Animal_Cow_White
   m_TagString: Untagged
@@ -509,7 +511,7 @@ Transform:
   m_GameObject: {fileID: 1714292744217926156}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 15.5, y: 0, z: 13}
+  m_LocalPosition: {x: 15.58, y: 0, z: 13}
   m_LocalScale: {x: 0.09, y: 0.09, z: 0.09}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -549,7 +551,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bb820d2cd836b54884d54ca4abd3f84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 15
+  speed: 7
 --- !u!114 &8784034891126529728
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -560,6 +562,39 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9e62d7cb63e2f124dbda3c1fc416222a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &-7970150529015884865
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1714292744217926156}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 11.553933, y: 32.265133, z: 55.23369}
+  m_Center: {x: 0.031185148, y: 15.632563, z: -6.3684406}
+--- !u!114 &1141682272649102387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1714292744217926156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b6e3007c869edc43b70301731ca5398, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1886466118104316096
